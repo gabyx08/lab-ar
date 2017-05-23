@@ -16,13 +16,30 @@ nav{
   background: #F8BB27;
   margin-top: 11%;
   margin-bottom: 10%;
-  /*color: #fff;*/
 }
 .jumbotronInicio button{
   color: #000;
 }
 .jumbotronInicio img{
   margin: 1%;
+}
+#conduce{
+  background-image: url(../img/conduce.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#conduce button{
+  background: #F8BB27;
+}
+#conduce button:hover{
+  color: #F8BB27;
+  border: 2px solid #F8BB27;
+  background: #fff;
+}
+.textoConduce{
+  background-color: rgba(93, 109, 126, 0.5);
+  padding: 5%;
+
 }
 /*MOVIL*/
 @media (min-width:0px) and (max-width:991px) {
@@ -41,6 +58,9 @@ nav{
     margin: 7%;
     padding: 3%;
   }
+  .textoConduce{
+    margin: 30% 3%;
+  }
 }
 /*DESKTOP*/
 @media (min-width:992px) {
@@ -55,6 +75,8 @@ nav{
     display: none;
   }
   .borderApp{
+    display: flex;
+    align-items: center;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff ;
     border-right: 1px solid #fff;
@@ -63,6 +85,9 @@ nav{
     padding: 2% 0;
   }
   #appDesktop h3,p{
-    margin: 5%;
+    margin: 3% 10%;
+  }
+  .textoConduce{
+    margin-bottom: 20%;
   }
 }
