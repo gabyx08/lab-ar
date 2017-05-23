@@ -1,0 +1,40 @@
+nav{
+  padding: 1%;
+}
+#inicio{
+  margin-top: 4%;
+  background-image: url(../img/taxi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.jumbotronInicio{
+  background: #F8BB27;
+  margin-top: 11%;
+  margin-bottom: 10%;
+  color: #fff;
+}
+.jumbotronInicio button{
+  color: #000;
+}
+.jumbotronInicio img{
+  margin: 1%;
+}
+@media (min-width:0px) and (max-width:991px) {
+  .jumbotronInicio{
+    margin-top: 30%;
+    margin-bottom: 29%;
+  }
+  #inicioDesktop{
+    display: none;
+  }
+}
+@media (min-width:992px) {
+  .jumbotronInicio{
+    margin-top: 6%;
+    margin-bottom: 5%;
+  }
+  #inicioMovil{
+    display:none;
+  }
+}
