@@ -28,10 +28,10 @@ nav{
   background-position: center;
   background-size: cover;
 }
-#conduce button{
+.btn{
   background: #F8BB27;
 }
-#conduce button:hover{
+.btn:hover{
   color: #F8BB27;
   border: 2px solid #F8BB27;
   background: #fff;
@@ -39,7 +39,30 @@ nav{
 .textoConduce{
   background-color: rgba(93, 109, 126, 0.5);
   padding: 5%;
-
+}
+.tarifas{
+  margin: 5%;
+}
+.tarifas input{
+  background:#F8BB27;
+  border: 1px solid #fff;
+  margin-left: 3%;
+  width: 80%;
+  color: #fff;
+}
+.btn-tarifa{
+  color: #000;
+  background: #fff;
+}
+.btn-tarifa:hover{
+  border: 2px solid #fff;
+  background: #F8BB27;
+  color: #fff;
+}
+.img-tarifa{
+  border: 1px solid #fff;
+  padding: 1%;
+  margin: 3%;
 }
 /*MOVIL*/
 @media (min-width:0px) and (max-width:991px) {
