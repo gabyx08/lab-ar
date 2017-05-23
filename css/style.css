@@ -78,7 +78,19 @@ footer a:hover{
   margin-bottom: 3%;
 }
 .fa:hover{
-  color: #F8BB27; 
+  color: #F8BB27;
+}
+/*Modal registro*/
+#registroTitulo{
+  background: #000;
+  color:#fff;
+}
+#registrate{
+  color: #000;
+}
+#registrate input,select{
+  width: 100%;
+  margin: 2% 0;
 }
 /*MOVIL*/
 @media (min-width:0px) and (max-width:991px) {
